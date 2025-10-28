@@ -1,0 +1,15 @@
+.counterheader
+{
+    padding: 5px;
+    background-color: rgba(191, 93, 93, 0.566);
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.counterheader h1
+{
+    font-size: 40px;
+    color: white;
+    font-family:  sans-serif;
+
+}
