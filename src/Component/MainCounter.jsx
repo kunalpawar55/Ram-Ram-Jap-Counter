@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from './Header';
 import '../CssFolder/Maincounter.css';
+import Footer from './Footer';
 
 export default function MainCounter() {
   const [showconter, setcounter] = useState(0);
@@ -81,6 +82,7 @@ export default function MainCounter() {
           {isDisabled ? "जय श्री राम..." : "Click"}
         </button>
       </div>
+      <Footer/>
     </div>
   );
 }
