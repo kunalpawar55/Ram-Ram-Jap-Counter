@@ -47,7 +47,7 @@ export default function MainCounter() {
   const progress = (showconter / 108) * 100;
 
   return (
-    <div style={{ backgroundColor: "rgba(53, 57, 56, 1)" }}>
+    <div style={{ backgroundColor: "rgba(0, 0, 0, 1)" }}>
       <Header />
       <div className="maincounterdiv">
 
@@ -79,7 +79,7 @@ export default function MainCounter() {
         </ul>
 
         <button onClick={managecounter} >
-          {isDisabled ? "जय श्री राम..." : "Click"}
+          " राम..."
         </button>
       </div>
       <Footer/>
